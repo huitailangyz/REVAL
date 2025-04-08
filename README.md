@@ -13,7 +13,7 @@ This repository is an official implementation of the paper [REVAL](https://arxiv
 
 The rapid evolution of Large Vision-Language Models (LVLMs) has highlighted the necessity for comprehensive evaluation frameworks that assess these models across diverse dimensions. While existing benchmarks focus on specific aspects such as perceptual abilities, cognitive capabilities, and safety against adversarial attacks, they often lack the breadth and depth required to provide a holistic understanding of LVLMs' strengths and limitations. To address this gap, we introduce REVAL, a comprehensive benchmark designed to evaluate the **RE**liability and **VAL**ue of LVLMs. REVAL encompasses over 144K image-text Visual Question Answering (VQA) samples, structured into two primary sections: Reliability, which assesses truthfulness (e.g., perceptual accuracy and hallucination tendencies) and robustness (e.g., resilience to adversarial attacks, typographic attacks, and image corruption), and Values, which evaluates ethical concerns (e.g., bias and moral understanding), safety issues (e.g., toxicity and jailbreak vulnerabilities), and privacy problems (e.g., privacy awareness and privacy leakage). We evaluate 26 models, including mainstream open-source LVLMs and prominent closed-source models like GPT-4o and Gemini-1.5-Pro. Our findings reveal that while current LVLMs excel in perceptual tasks and toxicity avoidance, they exhibit significant vulnerabilities in adversarial scenarios, privacy preservation, and ethical reasoning. These insights underscore critical areas for future improvements, guiding the development of more secure, reliable, and ethically aligned LVLMs. REVAL provides a robust framework for researchers to systematically assess and compare LVLMs, fostering advancements in the field.
 <div align="center">
-    <img src="figures/framework.png" alt="framework" style="width: 100%;"> 
+    <img src="figures/framework.jpg" alt="framework" style="width: 100%;"> 
 </div>
 
 ## Dataset
@@ -41,9 +41,9 @@ The rapid evolution of Large Vision-Language Models (LVLMs) has highlighted the 
 
 ## Main Result
 <div align="center">
-    <img src="figures/result.png" alt="result" style="width: 100%;"> 
-    <img src="figures/reliability.png" alt="reliability" style="width: 100%;"> 
-    <img src="figures/value.png" alt="value" style="width: 100%;"> 
+    <img src="figures/result.jpg" alt="result" style="width: 100%;"> 
+    <img src="figures/reliability.jpg" alt="reliability" style="width: 100%;"> 
+    <img src="figures/value.jpg" alt="value" style="width: 100%;"> 
 </div>
 
 ## Usage
